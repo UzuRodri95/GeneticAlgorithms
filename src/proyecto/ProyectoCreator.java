@@ -9,7 +9,7 @@ public class ProyectoCreator implements Creator<IntegerGenotype>
 {
 	public IntegerGenotype create(){
 		
-		IntegerGenotype genotipo = new IntegerGenotype(1,60);
+		IntegerGenotype genotipo = new IntegerGenotype(1,3);
 		genotipo.init(new Random(), Data.NUM_GRUPOS_TOTAL);
 		
 		return genotipo;
